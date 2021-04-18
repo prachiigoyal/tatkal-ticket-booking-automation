@@ -1,7 +1,7 @@
 module.exports={
     from:"NEW DELHI - NDLS",
     to:"HOWRAH JN - HWH",
-    date:"18/04/2021",
+    date:"22/04/2021",
     passenger:[{
         name :"Phoolan Devi",
         age : "45",
