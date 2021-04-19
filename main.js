@@ -109,7 +109,7 @@ let PDFDocument = require('./pdfkit-tables');
             rows:[]
         }
         table.rows.push([passenger[i].name,passenger[i].age,passenger[i].gender,"AVAILABLE"])
-        document.moveDown().table(table,10,125,{width:590});
+        pdfDoc.moveDown().table(table,10,125,{width:590});
         pdfDoc.text(`Important 
         • One of the passenger booked on an E-ticket is required to present any of the five identity cards noted below in original during the 
         train journey and same will be accepted as a proof of identity failing which all the passengers will be treated as travelling without ticket 
